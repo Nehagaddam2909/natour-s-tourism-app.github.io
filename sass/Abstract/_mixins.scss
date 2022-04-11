@@ -1,0 +1,8 @@
+// it will make css applied to first object since it won't be applied due to float values
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
